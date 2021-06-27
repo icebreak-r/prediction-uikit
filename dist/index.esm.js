@@ -3705,7 +3705,7 @@ var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
     return cakePriceUsd ? (React.createElement(PriceLink, { href: "https://www.dextools.io/app/pancakeswap/pair-explorer/0x92f5ce5898e393158887ecbe7d46b60edfc4d6e7", target: "_blank" },
         React.createElement(Icon$u, { width: "24px", mr: "8px" }),
-        React.createElement(Text, { color: "textSubtle", bold: true }, "(1B ICEBRK) $" + (cakePriceUsd*1e9).toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
+        React.createElement(Text, { color: "textSubtle", bold: true }, "(1B ICEBRK) $" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
 };
 var CakePrice$1 = React.memo(CakePrice);
 var templateObject_1$9;
